@@ -1,0 +1,11 @@
+0,absolute,1
+1,root_opened,2
+2,made_relative,3
+0,not_absolute,4
+4,cwd_opened,5
+5,readlink,6
+6,open_nonsym,7
+7,next_nonsym,6
+6,next_component,5
+5,fully_traversed,8
+ACCEPT 8
