@@ -1,0 +1,9 @@
+(( allow,
+principal : students,
+action : open,
+resource : cs240/Exam.pdf),
+( allow,
+principal : tas,
+action : open,
+resource : (cs240/Exam.pdf,
+cs240/Answer.pdf)))
